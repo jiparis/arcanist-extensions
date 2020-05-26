@@ -34,7 +34,7 @@ final class ArcanistCodeNarcLinter extends ArcanistExternalLinter {
 
     $options[] = '--output=json';
     $options[] = '--no-insight';
-    $options[] = '--config=' . dirname(__FILE__) . '/../.groovylintrc.json';
+    $options[] = '--rulesets=' . dirname(__FILE__) . '/../ruleset.groovy';
     $options[] = '--files';
 
     return $options;
