@@ -1,5 +1,5 @@
 <?php
-final class ArcanistCodeNarcLinter extends ArcanistExternalLinter {
+final class ArcanistGroovyLinter extends ArcanistExternalLinter {
 
   public function getInfoName() {
     return 'NpmGroovyLint';
